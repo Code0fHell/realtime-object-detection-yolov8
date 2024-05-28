@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-time Object Detection</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Real-time Object Detection</h1>
+        <div class="upload-section">
+            <input type="file" id="upload" accept="image/*,video/*">
+        </div>
+        <div class="webcam-section">
+            <button id="webcamButton">Start Webcam</button>
+            <video id="webcam" autoplay playsinline></video>
+        </div>
+        <div class="output-section">
+            <img id="output" src="" alt="Processed Image">
+        </div>
+    </div>
+    <script src="../static/js/scripts.js"></script>
+</body>
+</html>
